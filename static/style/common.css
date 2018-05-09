@@ -1,0 +1,226 @@
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+}
+.select_min_width {
+    min-width: 80px;
+}
+
+.cust_btn_right {
+    float: right;
+    margin-left: 10px;
+}
+
+.ant-pagination-simple .ant-pagination-prev {min-width:20px;}
+.ant-pagination-simple .ant-pagination-next {min-width:20px;}
+.ant-pagination-simple .ant-pagination-simple-pager input {margin-right:0px !important; padding:0px !important;}
+.ant-pagination-simple .ant-pagination-simple-pager .ant-pagination-slash {margin-right:0px}
+
+
+.ant-select-selection-selected-value a.selected_del {display: none;}
+
+.table_column_cut {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table_column_center {
+    text-align : center !important;
+}
+
+.form_item_default_width .ant-form-item{
+    width:100% !important;
+}
+
+.btn_right .ant-form-item{
+    float: right;
+}
+.btn_margin_r20 button{
+    margin-right: 20px;
+}
+/*.ant-message {z-index:1050 !important;}
+.ant-modal-mask {z-index:1050 !important;}
+.ant-modal-wrap {z-index:1050 !important;}*/
+
+/* 增加会引起Modal里面的Message偶尔在弹出层下面 */
+/*.ant-message {*/
+    /*z-index: -1 !important;*/
+/*}*/
+
+.olym_table_select .ant-table-small .ant-table-thead > tr > th.ant-table-selection-column .ant-table-selection{width : 100% !important;}
+
+.ant-input[disabled], fieldset[disabled] .ant-input { color: rgba(0, 0, 0, 0.75) !important;cursor: not-allowed;}
+.ant-select-disabled{color:rgba(0, 0, 0, 0.75) !important;cursor: not-allowed;}
+.ant-radio-disabled + span { color: rgba(0, 0, 0, 0.75)!important;cursor: not-allowed;}
+.booking-detail-top-menu .ant-menu-item-selected, .booking-detail-top-menu .ant-menu-submenu-selected {
+     border-bottom: none!important;
+    color: #FFFFFF!important;
+    background-color: #ed7300!important;
+    /*box-shadow:0px 3px 3px rgba(196, 94, 0, 0.627450980392157);*/
+}
+.booking-detail-top-menu .ant-menu-item-active,.booking-detail-top-menu .ant-menu-item:hover{
+    color:#FFFFFF !important;
+    font-weight:bold!important;
+}
+.booking-detail-top-menu  > .ant-menu-item, .booking-detail-top-menu > .ant-menu-submenu{
+    border-bottom: none!important;
+}
+.booking-detail-top-menu  > .ant-menu-item:hover,.booking-detail-top-menu > .ant-menu-item:active{
+    border-bottom: none!important;
+}
+.RMB_color {
+    color: #414cff;
+}
+.USD_color {
+    color: #00BB00;
+}
+.error_color {
+    color: #ff4229;
+}
+
+.small-modal-header .ant-modal-close-x{ height: 34px !important; line-height: 34px !important;}
+.small-modal-header .ant-modal-header{ padding: 6px 16px !important;}
+.tiny-tabs .ant-tabs-tab {padding: 8px !important;}
+.truck-plan-collapse .ant-collapse-header{ padding:0px 10px !important;}
+.truck-plan-collapse .ant-collapse-header i { display: none !important;}
+.truck-plan-table .ant-table-small .ant-table-tbody > tr > td.ant-table-selection-column { width: 39px !important;}
+.si-tree-table .active-row{background-color: #e6f7ff}
+.si-tree-table  .ant-table-tbody > tr:hover >td{background: none!important;}
+.si-list-billtype-icon {font-family: Courier; font-weight: 700; height: 20px; line-height: 24px; font-size: 24px; display: inline-block; text-shadow: rgb(228, 228, 228) 1px 1px 1px; margin-right: 6px; color: rgb(20, 34, 122); width: 15px;}
+.error-follow-table .ant-table-tbody > tr:hover >td{background: none!important;}
+.error-follow-table .ant-table-small .ant-table-body > table {padding:0!important;}
+.error-follow-table .ant-table-small {border:none!important;}
+.error-follow-table-row > td {padding:0!important;border:none!important;}
+.business-border-box {margin: 0 5px 5px 0; padding: 10px; backgroundColor: #FFF; border: 1px solid #e4e4e4;}
+.table-btn-space Button {
+    margin-right: 10px;
+}
+
+.cascader-popup-pca ul.ant-cascader-menu {
+    height: 220px;
+}
+/* 业务台帐 异常业务的背景色 */
+.bn-table-error-row{background-color: #FEE4D4}
+.bn-table-timeout-row{background-color: #FEFCC0}
+.bn-table-error-timeout-row{background-color: #FFCECB}
+/*.has-error .ant-upload {*/
+    /*border-color: #f04134 !important;*/
+/*}*/
+.hr-2{
+    height: 2px;
+    border: none;
+    border-top: 2px solid #cccccc;
+}
+
+/*booking-space-list样式修改*/
+.ant-table-content table tr:nth-child(even)[class="ant-table-row  ant-table-row-level-0"]{
+    background: #F3F5F8;
+}
+/* #app{
+    padding:15px 0;
+} */
+.booking-space-list .ant-layout{
+    background:white!important;
+}
+.booking-space-list .ant-layout .ant-layout-sider{
+    border:1px solid #F3F5F8;
+    margin-right:10px;
+    border-radius: 3px;
+}
+.booking-space-list .ant-layout .ant-layout-sider .ant-layout-sider-children{
+    padding:10px;
+}
+.booking-space-list .ant-layout-content{
+    padding:10px;
+    border:1px solid #F3F5F8;
+    border-radius: 3px;
+}
+.booking-space-list .panel{
+    border-bottom:1px solid #F3F5F8;
+}
+@keyframes show-search-condition{
+    0%   {width:0px;}
+    100% {width:200px;}
+}
+@keyframes hide-search-condition{
+    0%   {width:200px;}
+    100% {width:0px;}
+}
+.booking-space-list .show-search-condition{
+    animation:show-search-condition 0.5s;
+    width:200px!important;
+    border:1px solid #F3F5F8!important;
+    margin-right:10px!important;
+}
+.booking-space-list .hide-search-condition{
+    animation:hide-search-condition 0.5s;
+    width:0px!important;
+    border:1px solid white!important;
+    margin-right:0px!important;
+}
+.booking-space-list .default-hide{
+    width:0px!important;
+    border:1px solid white!important;
+    margin-right:0px!important;
+}
+.booking-space-list .ant-layout-sider{
+    max-width:none!important;
+    min-width:inherit!important;
+    flex:0 0 auto!important;
+    overflow: hidden;
+}
+
+.ant-select-selection {
+    user-select: text !important;
+}
+.ediTable .ant-table-body .ant-table-fixed{
+    table-layout: fixed;
+}
+/* 空运主单表格样式  start*/
+.air-last-sum-row {
+    background-color: #f7f7f7
+}
+
+.air-sub-cases-table .ant-table-thead > tr > th {
+    background-color: #f7f7f7 !important
+}
+
+.air-table-row {
+    background-color: #FFF !important
+}
+/* 空运主单表格样式 end */
+
+.air-expand-row-no-icon .ant-table-row-expand-icon {
+    display: none !important
+}
+
+.air-table-direct-row {
+    background-color: rgba(204, 230, 250, 1)
+}
+
+.air-table-transfer-row {
+    background-color: rgba(255, 202, 202, 1)
+}
+.boxTypeVolumeDetail .o-form .o-form-label--6em {
+    padding-left: 7em;
+}
+
+/* 限定chexkbox宽度 原M3页面使用 兼容旧页面 start*/
+/*.ant-table-small .ant-table-fixed-left{*/
+    /*top: 200px;*/
+/*}*/
+/*.ant-table-small .ant-table-scroll .ant-table-thead > tr > th.ant-table-selection-column{*/
+    /*width: 100% !important; min-width: 100% !important;*/
+/*}*/
+/* 限定chexkbox宽度 原M3页面使用 兼容旧页面 end*/
+
+.ant-cascader-picker-disabled {
+    color: #000000 !important;
+    opacity: 0.75 !important;
+}

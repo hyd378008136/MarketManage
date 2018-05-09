@@ -1,0 +1,36 @@
+{
+  "extends":"standard",
+//  "extends": "eslint:recommended",
+  "ecmaFeatures":{
+    "jsx":true,
+    "modules":true
+  },
+  "env":{
+    "browser":true,
+    "node":true,
+    "es6":true
+  },
+  "parser":"babel-eslint",
+  "rules":{
+    "react/jsx-boolean-value": "warn",
+    "prefer-arrow-callback": "warn",
+    "no-var": "error",
+    "max-params": ["error", 4],
+    "no-magic-numbers": ["error", {
+      "ignoreArrayIndexes": true,
+      "ignore": [-1, 0, 1, 2]
+    }],
+    "no-cond-assign": "error",
+    "no-extra-boolean-cast": "error",
+    "no-eq-null": "error",
+    "semi": [2, "always"],
+    // TODO 引用组件使用后还是会报错
+    "no-unused-vars": "off",
+    "no-new": "off",
+    "no-trailing-spaces": "off"
+  },
+  "plugins":[
+    "react",
+    "html"
+  ]
+}
