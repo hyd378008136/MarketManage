@@ -8,6 +8,10 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import reducer from './reducers';
+import Test from './pages/Test';
+import createBrowserHistory from 'history/createBrowserHistory';
+
+const history = createBrowserHistory();
 
 moment.locale('zh-cn');
 const middleware = [thunk];
@@ -23,8 +27,8 @@ const store = createStore(
 
 render(
   <Provider store={store}>
-    <Router>
-
+    <Router history={history}>
+      <Route path="/" component={Test}/>
     </Router>
   </Provider>,
   document.getElementById('app')
