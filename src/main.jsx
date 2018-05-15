@@ -19,10 +19,9 @@ if (process.env.NODE_ENV !== 'production') {
   middleware.push(createLogger());
 }
 
-const composeEnhancers = compose;
 const store = createStore(
   reducer,
-  composeEnhancers(applyMiddleware(...middleware))
+  compose(applyMiddleware(...middleware))
 );
 
 render(
